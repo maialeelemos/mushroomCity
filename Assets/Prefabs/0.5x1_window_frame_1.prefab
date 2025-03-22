@@ -52,6 +52,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: 0.5x1_window_frame_1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 568c0e6c0a8349e4b8a0a8f94a40fd8c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3983852578069284815, guid: 568c0e6c0a8349e4b8a0a8f94a40fd8c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4634602668098707647, guid: 568c0e6c0a8349e4b8a0a8f94a40fd8c, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 

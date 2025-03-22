@@ -48,9 +48,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1764213487153148475, guid: 6ef4449b5e283ba4f82f985ad917ddd0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6ef4449b5e283ba4f82f985ad917ddd0, type: 3}
       propertyPath: m_Name
       value: door_knob_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6ef4449b5e283ba4f82f985ad917ddd0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 2238472313193906253, guid: 6ef4449b5e283ba4f82f985ad917ddd0, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
