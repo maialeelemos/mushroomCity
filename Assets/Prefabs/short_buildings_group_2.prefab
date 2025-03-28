@@ -1252,7 +1252,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2168110642228718555, guid: 68360fe26b7805142a33f3a7950746ba, type: 3}
       propertyPath: m_Name
-      value: mushroom_1 (5)
+      value: mushroom_1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1584,7 +1584,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6313831892658815975, guid: 68a89d09bb9525546b3bf0b3c90ac0b9, type: 3}
       propertyPath: m_Name
-      value: street_light_2 (4)
+      value: street_light_2 (1)
       objectReference: {fileID: 0}
     - target: {fileID: 6689230882429360477, guid: 68a89d09bb9525546b3bf0b3c90ac0b9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1934,7 +1934,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2168110642228718555, guid: 68360fe26b7805142a33f3a7950746ba, type: 3}
       propertyPath: m_Name
-      value: mushroom_1 (2)
+      value: mushroom_1 (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2328,7 +2328,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6313831892658815975, guid: 68a89d09bb9525546b3bf0b3c90ac0b9, type: 3}
       propertyPath: m_Name
-      value: street_light_2 (1)
+      value: street_light_2
       objectReference: {fileID: 0}
     - target: {fileID: 6689230882429360477, guid: 68a89d09bb9525546b3bf0b3c90ac0b9, type: 3}
       propertyPath: m_LocalPosition.x

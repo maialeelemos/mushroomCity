@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 3198933574242884842}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: -0.7071068}
-  m_LocalPosition: {x: 0.021, y: 1.83, z: -0.033}
+  m_LocalPosition: {x: 0.007, y: 1.974, z: -0.047}
   m_LocalScale: {x: 0.99999976, y: 1, z: 0.99999976}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -45,7 +45,7 @@ Light:
   m_Type: 2
   m_Color: {r: 0.60188675, g: 0.833831, b: 1, a: 1}
   m_Intensity: 0.1
-  m_Range: 10
+  m_Range: 20
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -86,7 +86,7 @@ Light:
   m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
+  m_BounceIntensity: 2
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
@@ -148,7 +148,7 @@ Transform:
   m_GameObject: {fileID: 3351215431553521597}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 2.351, z: -0.075}
+  m_LocalPosition: {x: 0, y: 2.264, z: -0.075}
   m_LocalScale: {x: 0.99999976, y: 1, z: 0.99999976}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -165,8 +165,8 @@ Light:
   serializedVersion: 11
   m_Type: 0
   m_Color: {r: 0.6245283, g: 0.87580556, b: 1, a: 1}
-  m_Intensity: 10
-  m_Range: 3.32
+  m_Intensity: 8
+  m_Range: 5
   m_SpotAngle: 120
   m_InnerSpotAngle: 20
   m_CookieSize: 10
@@ -207,7 +207,7 @@ Light:
   m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1.47
+  m_BounceIntensity: 2
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
@@ -311,10 +311,67 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: cc19202d70d7e6a42b9611e47ae94257, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2966001016948773749}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: cc19202d70d7e6a42b9611e47ae94257, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3737054524935337271}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: cc19202d70d7e6a42b9611e47ae94257, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3106548340053436865}
   m_SourcePrefab: {fileID: 100100000, guid: cc19202d70d7e6a42b9611e47ae94257, type: 3}
 --- !u!4 &1230459399740452078 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: cc19202d70d7e6a42b9611e47ae94257, type: 3}
   m_PrefabInstance: {fileID: 1628545167049657093}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1898452934012810836 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: cc19202d70d7e6a42b9611e47ae94257, type: 3}
+  m_PrefabInstance: {fileID: 1628545167049657093}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &3737054524935337271
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1898452934012810836}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.12
+  m_Height: 2.4065866
+  m_Direction: 1
+  m_Center: {x: 0, y: 1.1829116, z: -0.050190743}
+--- !u!136 &3106548340053436865
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1898452934012810836}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.36306986
+  m_Height: 0.4
+  m_Direction: 1
+  m_Center: {x: -0.019316409, y: 2.1, z: -0.050190743}

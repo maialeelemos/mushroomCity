@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 1693810301471827948}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: -0.7071068}
-  m_LocalPosition: {x: -0.2025, y: 0.136, z: -0.003}
+  m_LocalPosition: {x: -0.208, y: 0.136, z: -0.003}
   m_LocalScale: {x: 0.99999976, y: 1, z: 0.99999976}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -86,7 +86,7 @@ Light:
   m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 0.5
+  m_BounceIntensity: 2
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
@@ -207,7 +207,7 @@ Light:
   m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
+  m_BounceIntensity: 2
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
@@ -311,10 +311,41 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 39fb4bb2b82b82d4a829692de3f1122f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2473635857612250877}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 39fb4bb2b82b82d4a829692de3f1122f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 412764975296813822}
   m_SourcePrefab: {fileID: 100100000, guid: 39fb4bb2b82b82d4a829692de3f1122f, type: 3}
 --- !u!4 &4654406004980606253 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 39fb4bb2b82b82d4a829692de3f1122f, type: 3}
   m_PrefabInstance: {fileID: 5124389272025891526}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &5466267366941802391 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 39fb4bb2b82b82d4a829692de3f1122f, type: 3}
+  m_PrefabInstance: {fileID: 5124389272025891526}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &412764975296813822
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5466267366941802391}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.2
+  m_Height: 0.38521978
+  m_Direction: 1
+  m_Center: {x: -0.2, y: 0.18, z: -0.0029565475}
