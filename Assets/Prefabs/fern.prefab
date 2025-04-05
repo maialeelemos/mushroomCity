@@ -64,6 +64,10 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: bd9fd794cfa6b224faeaeab1ce30b396, type: 2}
+    - target: {fileID: -2024610471768731911, guid: 7d5aba382e2a26c479a175c0a5e087a9, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: bd9fd794cfa6b224faeaeab1ce30b396, type: 2}
     - target: {fileID: 919132149155446097, guid: 7d5aba382e2a26c479a175c0a5e087a9, type: 3}
       propertyPath: m_Name
       value: fern
@@ -72,6 +76,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 1409305291090516519, guid: 7d5aba382e2a26c479a175c0a5e087a9, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: bd9fd794cfa6b224faeaeab1ce30b396, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -104,15 +112,15 @@ LODGroup:
   m_AnimateCrossFading: 0
   m_LastLODIsBillboard: 0
   m_LODs:
-  - screenRelativeHeight: 0.6
+  - screenRelativeHeight: 0.50337136
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 5046191710977079882}
-  - screenRelativeHeight: 0.3
+  - screenRelativeHeight: 0.24582544
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 362984010622615849}
-  - screenRelativeHeight: 0.1
+  - screenRelativeHeight: 0.06887099
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 8457879098284955127}

@@ -14,7 +14,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a55eb6d663c8c4fd99d99de98d7cdd19, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 12.893
+      value: 12.921
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a55eb6d663c8c4fd99d99de98d7cdd19, type: 3}
       propertyPath: m_LocalPosition.z
@@ -48,18 +48,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7905158031951286805, guid: a55eb6d663c8c4fd99d99de98d7cdd19, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d990d190aaa2140aa9fd1fae7bdbca6e, type: 2}
     - target: {fileID: -7511558181221131132, guid: a55eb6d663c8c4fd99d99de98d7cdd19, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: d990d190aaa2140aa9fd1fae7bdbca6e, type: 2}
     - target: {fileID: 919132149155446097, guid: a55eb6d663c8c4fd99d99de98d7cdd19, type: 3}
       propertyPath: m_Name
-      value: liverwort-BIGGER
+      value: liverwort
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a55eb6d663c8c4fd99d99de98d7cdd19, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 7088286450617681485, guid: a55eb6d663c8c4fd99d99de98d7cdd19, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d990d190aaa2140aa9fd1fae7bdbca6e, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -68,6 +76,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: -6462573627151454335}
   m_SourcePrefab: {fileID: 100100000, guid: a55eb6d663c8c4fd99d99de98d7cdd19, type: 3}
+--- !u!23 &1044638606916790311 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 7088286450617681485, guid: a55eb6d663c8c4fd99d99de98d7cdd19, type: 3}
+  m_PrefabInstance: {fileID: 7791768038191607402}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &6980722833205367611 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a55eb6d663c8c4fd99d99de98d7cdd19, type: 3}
@@ -81,20 +94,26 @@ LODGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6980722833205367611}
   serializedVersion: 2
-  m_LocalReferencePoint: {x: 0, y: 0, z: 0}
-  m_Size: 1
+  m_LocalReferencePoint: {x: -0.0077887177, y: 0.0069285687, z: -0.0112710595}
+  m_Size: 0.41862845
   m_FadeMode: 0
   m_AnimateCrossFading: 0
   m_LastLODIsBillboard: 0
   m_LODs:
-  - screenRelativeHeight: 0.6
+  - screenRelativeHeight: 0.20351133
     fadeTransitionWidth: 0
     renderers:
-    - renderer: {fileID: 0}
-  - screenRelativeHeight: 0.3
+    - renderer: {fileID: 1044638606916790311}
+  - screenRelativeHeight: 0.06887099
     fadeTransitionWidth: 0
-    renderers: []
-  - screenRelativeHeight: 0.1
+    renderers:
+    - renderer: {fileID: 9109329697418806145}
+  - screenRelativeHeight: 0.011424439
     fadeTransitionWidth: 0
     renderers: []
   m_Enabled: 1
+--- !u!23 &9109329697418806145 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7905158031951286805, guid: a55eb6d663c8c4fd99d99de98d7cdd19, type: 3}
+  m_PrefabInstance: {fileID: 7791768038191607402}
+  m_PrefabAsset: {fileID: 0}
